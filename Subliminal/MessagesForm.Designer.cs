@@ -52,9 +52,9 @@
             this.grpMessageSet.Controls.Add(this.btnSave);
             this.grpMessageSet.Controls.Add(this.btnLoad);
             this.grpMessageSet.Location = new System.Drawing.Point(16, 234);
-            this.grpMessageSet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpMessageSet.Margin = new System.Windows.Forms.Padding(4);
             this.grpMessageSet.Name = "grpMessageSet";
-            this.grpMessageSet.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpMessageSet.Padding = new System.Windows.Forms.Padding(4);
             this.grpMessageSet.Size = new System.Drawing.Size(281, 175);
             this.grpMessageSet.TabIndex = 2;
             this.grpMessageSet.TabStop = false;
@@ -63,7 +63,7 @@
             // btnCancel
             // 
             this.btnCancel.Location = new System.Drawing.Point(23, 112);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(108, 42);
             this.btnCancel.TabIndex = 4;
@@ -74,7 +74,7 @@
             // btnAccept
             // 
             this.btnAccept.Location = new System.Drawing.Point(23, 34);
-            this.btnAccept.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAccept.Margin = new System.Windows.Forms.Padding(4);
             this.btnAccept.Name = "btnAccept";
             this.btnAccept.Size = new System.Drawing.Size(108, 42);
             this.btnAccept.TabIndex = 4;
@@ -85,7 +85,7 @@
             // btnSave
             // 
             this.btnSave.Location = new System.Drawing.Point(153, 112);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(108, 42);
             this.btnSave.TabIndex = 3;
@@ -96,7 +96,7 @@
             // btnLoad
             // 
             this.btnLoad.Location = new System.Drawing.Point(153, 34);
-            this.btnLoad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLoad.Margin = new System.Windows.Forms.Padding(4);
             this.btnLoad.Name = "btnLoad";
             this.btnLoad.Size = new System.Drawing.Size(108, 42);
             this.btnLoad.TabIndex = 3;
@@ -109,9 +109,9 @@
             this.grpDragNDrop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.grpDragNDrop.Controls.Add(this.DragDropPic);
             this.grpDragNDrop.Location = new System.Drawing.Point(305, 234);
-            this.grpDragNDrop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpDragNDrop.Margin = new System.Windows.Forms.Padding(4);
             this.grpDragNDrop.Name = "grpDragNDrop";
-            this.grpDragNDrop.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpDragNDrop.Padding = new System.Windows.Forms.Padding(4);
             this.grpDragNDrop.Size = new System.Drawing.Size(189, 175);
             this.grpDragNDrop.TabIndex = 2;
             this.grpDragNDrop.TabStop = false;
@@ -123,19 +123,23 @@
             this.DragDropPic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.DragDropPic.Dock = System.Windows.Forms.DockStyle.Fill;
             this.DragDropPic.Location = new System.Drawing.Point(4, 19);
-            this.DragDropPic.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DragDropPic.Margin = new System.Windows.Forms.Padding(4);
             this.DragDropPic.Name = "DragDropPic";
             this.DragDropPic.Size = new System.Drawing.Size(181, 152);
             this.DragDropPic.TabIndex = 3;
             this.DragDropPic.TabStop = false;
             this.DragDropPic.DragEnter += new System.Windows.Forms.DragEventHandler(this.DragDropPic_DragEnter);
             // 
+            // lfdLoadMessages
+            // 
+            this.lfdLoadMessages.DefaultExt = "txt";
+            // 
             // conveyorBelt1
             // 
             this.conveyorBelt1.BackColor = System.Drawing.Color.White;
             this.conveyorBelt1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.conveyorBelt1.Location = new System.Drawing.Point(-7, -1);
-            this.conveyorBelt1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.conveyorBelt1.Margin = new System.Windows.Forms.Padding(5);
             this.conveyorBelt1.Name = "conveyorBelt1";
             this.conveyorBelt1.Size = new System.Drawing.Size(515, 228);
             this.conveyorBelt1.TabIndex = 0;
@@ -152,7 +156,7 @@
             this.Controls.Add(this.conveyorBelt1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "MessagesForm";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;

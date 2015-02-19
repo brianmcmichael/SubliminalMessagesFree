@@ -94,8 +94,7 @@ namespace Subliminal
                                 "Can't start messages.",
                                 MessageBoxButtons.OK,
                                 MessageBoxIcon.None,
-                                MessageBoxDefaultButton.Button1,
-                                MessageBoxOptions.RightAlign | MessageBoxOptions.RtlReading);
+                                MessageBoxDefaultButton.Button1);
             }
         }
 

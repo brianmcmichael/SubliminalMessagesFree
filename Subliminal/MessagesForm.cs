@@ -68,24 +68,24 @@ namespace Subliminal
 
         private void btnLoad_Click(object sender, EventArgs e)
         {
-            ofd = new OpenFileDialog();
+            //ofd = new OpenFileDialog();
             
             DialogResult drCancel = this.lfdLoadMessages.ShowDialog();
             if (drCancel == DialogResult.OK)
             {
                 if (Type.GetType("Mono.Runtime") == null)
                 {
-                    Settings.GetSettings().MessagesQueueFile =
+                    strPrevMessagesFile =
                                 this.lfdLoadMessages.FileName.Substring(
                                     this.lfdLoadMessages.FileName.LastIndexOf("\\") + 1); 
                 }
                 else
                 {
-                    Settings.GetSettings().MessagesQueueFile =
+                    strPrevMessagesFile =
                                 this.lfdLoadMessages.FileName.Substring(
                                     this.lfdLoadMessages.FileName.LastIndexOf("/") + 1);
                 }
-                this.Text = "Messages Window" + " - " + Settings.GetSettings().MessagesQueueFile;
+                this.Text = "Messages Window" + " - " + strPrevMessagesFile;
                 this.conveyorBelt1.LoadMessages(true);
                 this.bHadMessagesChanged = false;
             }
