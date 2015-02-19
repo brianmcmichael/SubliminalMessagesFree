@@ -16,3 +16,18 @@ C:\Projects\Subliminal\Subliminal\obj\Debug\Subliminal.ShowPicture.resources
 C:\Projects\Subliminal\Subliminal\obj\Debug\Subliminal.TransperantMessage.resources
 D:\Users\brian_000\Documents\Visual Studio 2013\Projects\Subliminal-ENG\Subliminal\obj\Debug\Subliminal.exe
 D:\Users\brian_000\Documents\Visual Studio 2013\Projects\Subliminal-ENG\Subliminal\obj\Debug\Subliminal.pdb
+D:\Users\brian_000\Documents\Visual Studio 2013\Projects\Subliminal-ENG\Subliminal\bin\Debug\Subliminal.exe
+D:\Users\brian_000\Documents\Visual Studio 2013\Projects\Subliminal-ENG\Subliminal\bin\Debug\Subliminal.pdb
+D:\Users\brian_000\Documents\Visual Studio 2013\Projects\Subliminal-ENG\Subliminal\obj\Debug\Subliminal.csprojResolveAssemblyReference.cache
+D:\Users\brian_000\Documents\Visual Studio 2013\Projects\Subliminal-ENG\Subliminal\obj\Debug\Subliminal.CmdParameters.resources
+D:\Users\brian_000\Documents\Visual Studio 2013\Projects\Subliminal-ENG\Subliminal\obj\Debug\Subliminal.ConveyorBelt.resources
+D:\Users\brian_000\Documents\Visual Studio 2013\Projects\Subliminal-ENG\Subliminal\obj\Debug\Subliminal.ConveyorBeltItem.resources
+D:\Users\brian_000\Documents\Visual Studio 2013\Projects\Subliminal-ENG\Subliminal\obj\Debug\Subliminal.DirectionControl.resources
+D:\Users\brian_000\Documents\Visual Studio 2013\Projects\Subliminal-ENG\Subliminal\obj\Debug\Subliminal.MainForm.resources
+D:\Users\brian_000\Documents\Visual Studio 2013\Projects\Subliminal-ENG\Subliminal\obj\Debug\Subliminal.MessagesForm.resources
+D:\Users\brian_000\Documents\Visual Studio 2013\Projects\Subliminal-ENG\Subliminal\obj\Debug\Subliminal.Properties.Resources.resources
+D:\Users\brian_000\Documents\Visual Studio 2013\Projects\Subliminal-ENG\Subliminal\obj\Debug\Subliminal.ScrollArrows.resources
+D:\Users\brian_000\Documents\Visual Studio 2013\Projects\Subliminal-ENG\Subliminal\obj\Debug\Subliminal.SettingsForm.resources
+D:\Users\brian_000\Documents\Visual Studio 2013\Projects\Subliminal-ENG\Subliminal\obj\Debug\Subliminal.ShowPicture.resources
+D:\Users\brian_000\Documents\Visual Studio 2013\Projects\Subliminal-ENG\Subliminal\obj\Debug\Subliminal.TransperantMessage.resources
+D:\Users\brian_000\Documents\Visual Studio 2013\Projects\Subliminal-ENG\Subliminal\obj\Debug\Subliminal.csproj.GenerateResource.Cache
