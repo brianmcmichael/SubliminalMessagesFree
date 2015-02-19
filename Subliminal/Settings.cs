@@ -236,14 +236,14 @@ namespace Subliminal
                 if (Type.GetType("Mono.Runtime") == null)
                 {
                     stmSerializationStream =
-                                    File.Open(System.Windows.Forms.Application.StartupPath + "\\" + strSettingsFile,
-                                              FileMode.Open); 
+                        File.Open(System.Windows.Forms.Application.StartupPath + "\\" + strSettingsFile,
+                            FileMode.Open);
                 }
                 else
                 {
                     stmSerializationStream =
-                                    File.Open(System.Windows.Forms.Application.StartupPath + "/" + strSettingsFile,
-                                              FileMode.Open);
+                        File.Open(System.Windows.Forms.Application.StartupPath + "/" + strSettingsFile,
+                            FileMode.Open);
                 }
                 Settings setLoaded = bnfFormatter.Deserialize(stmSerializationStream) as Settings;
                 this.strDirection = setLoaded.strDirection;
@@ -253,12 +253,15 @@ namespace Subliminal
                 this.fntTextFont = setLoaded.fntTextFont;
                 this.strQueueFile = setLoaded.strQueueFile;
                 this.bShuffle = setLoaded.bShuffle;
-                this.pntRightBottom = 
+                this.pntRightBottom =
                     new Point(System.Windows.Forms.Screen.PrimaryScreen.WorkingArea.Width,
-                              System.Windows.Forms.Screen.PrimaryScreen.WorkingArea.Height);
+                        System.Windows.Forms.Screen.PrimaryScreen.WorkingArea.Height);
                 stmSerializationStream.Close();
             }
-            catch (FileNotFoundException){}
+            catch (FileNotFoundException)
+            {
+                Console.WriteLine("Settings.cs - LoadSettings error.");
+            }
         }
 
         public void SaveSettings()

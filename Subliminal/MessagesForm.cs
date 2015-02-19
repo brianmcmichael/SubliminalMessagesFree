@@ -11,6 +11,7 @@ namespace Subliminal
         // Members
         private string strPrevMessagesFile = Settings.GetSettings().MessagesQueueFile;
         private bool bHadMessagesChanged = false;
+        private OpenFileDialog ofd;
 
         #endregion
 
@@ -43,6 +44,7 @@ namespace Subliminal
 
         private void btnSave_Click(object sender, EventArgs e)
         {
+
             DialogResult drCancel = this.sfdSaveMessages.ShowDialog();
             if (drCancel == DialogResult.OK)
             {
@@ -66,6 +68,8 @@ namespace Subliminal
 
         private void btnLoad_Click(object sender, EventArgs e)
         {
+            ofd = new OpenFileDialog();
+            
             DialogResult drCancel = this.lfdLoadMessages.ShowDialog();
             if (drCancel == DialogResult.OK)
             {
