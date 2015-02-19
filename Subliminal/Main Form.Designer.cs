@@ -1,33 +1,33 @@
-﻿namespace Subliminal
-{
-    partial class MainForm
-    {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
-        private System.ComponentModel.IContainer components = null;
+﻿﻿namespace Subliminal
+ {
+     partial class MainForm
+     {
+         /// <summary>
+         /// Required designer variable.
+         /// </summary>
+         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
-                components.Dispose();
-            }
-            base.Dispose(disposing);
-        }
+         /// <summary>
+         /// Clean up any resources being used.
+         /// </summary>
+         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+         protected override void Dispose(bool disposing)
+         {
+             if (disposing && (components != null))
+             {
+                 components.Dispose();
+             }
+             base.Dispose(disposing);
+         }
 
-        #region Windows Form Designer generated code
+         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
-        private void InitializeComponent()
-        {
+         /// <summary>
+         /// Required method for Designer support - do not modify
+         /// the contents of this method with the code editor.
+         /// </summary>
+         private void InitializeComponent()
+         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.btnExit = new System.Windows.Forms.Button();
@@ -52,7 +52,7 @@
             // 
             this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.btnExit.Location = new System.Drawing.Point(31, 215);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(4);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(115, 50);
             this.btnExit.TabIndex = 0;
@@ -64,7 +64,7 @@
             // 
             this.btnStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.btnStart.Location = new System.Drawing.Point(31, 158);
-            this.btnStart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnStart.Margin = new System.Windows.Forms.Padding(4);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(115, 50);
             this.btnStart.TabIndex = 0;
@@ -100,9 +100,9 @@
             this.grpTitle.Controls.Add(this.lblTitle2);
             this.grpTitle.Controls.Add(this.lblTitle1);
             this.grpTitle.Location = new System.Drawing.Point(16, 15);
-            this.grpTitle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpTitle.Margin = new System.Windows.Forms.Padding(4);
             this.grpTitle.Name = "grpTitle";
-            this.grpTitle.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpTitle.Padding = new System.Windows.Forms.Padding(4);
             this.grpTitle.Size = new System.Drawing.Size(556, 127);
             this.grpTitle.TabIndex = 2;
             this.grpTitle.TabStop = false;
@@ -110,7 +110,7 @@
             // btnSettings
             // 
             this.btnSettings.Location = new System.Drawing.Point(171, 193);
-            this.btnSettings.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSettings.Margin = new System.Windows.Forms.Padding(4);
             this.btnSettings.Name = "btnSettings";
             this.btnSettings.Size = new System.Drawing.Size(100, 28);
             this.btnSettings.TabIndex = 3;
@@ -121,7 +121,7 @@
             // btnMessages
             // 
             this.btnMessages.Location = new System.Drawing.Point(171, 158);
-            this.btnMessages.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMessages.Margin = new System.Windows.Forms.Padding(4);
             this.btnMessages.Name = "btnMessages";
             this.btnMessages.Size = new System.Drawing.Size(100, 28);
             this.btnMessages.TabIndex = 3;
@@ -168,26 +168,26 @@
             this.cntxIconMenu.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.cntxIconMenu.Size = new System.Drawing.Size(185, 76);
             // 
-            // הפסקהודעותpauseToolStripMenuItem
+            // pauseToolStripMenuItem
             // 
             this.pauseToolStripMenuItem.Name = "pauseToolStripMenuItem";
             this.pauseToolStripMenuItem.Size = new System.Drawing.Size(184, 24);
             this.pauseToolStripMenuItem.Text = "Pause Messages";
-            this.pauseToolStripMenuItem.Click += new System.EventHandler(this.pauseToolStripMenuItem_Click);
+            this.pauseToolStripMenuItem.Click += new System.EventHandler(this.הפסקהודעותToolStripMenuItem_Click);
             // 
-            // עצורהודעותstopToolStripMenuItem
+            // stopToolStripMenuItem
             // 
             this.stopToolStripMenuItem.Name = "stopToolStripMenuItem";
             this.stopToolStripMenuItem.Size = new System.Drawing.Size(184, 24);
             this.stopToolStripMenuItem.Text = "Stop Messages";
-            this.stopToolStripMenuItem.Click += new System.EventHandler((sender, e) => this.showToolStripMenuItem_Click(sender, e));
+            this.stopToolStripMenuItem.Click += new System.EventHandler(this.עצורהודעותToolStripMenuItem_Click);
             // 
-            // יציאהexitToolStripMenuItem
+            // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(184, 24);
             this.exitToolStripMenuItem.Text = "Exit";
-            this.exitToolStripMenuItem.Click += new System.EventHandler(this.ToolStripMenuItem_Click);
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.יציאהToolStripMenuItem_Click);
             // 
             // MainForm
             // 
@@ -205,11 +205,11 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Location = new System.Drawing.Point(80, 80);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "MainForm";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Text = "Subliminal Messages Free v1.0.4";
+            this.Text = "Subliminal Messages Free 2015";
             this.Activated += new System.EventHandler(this.MainForm_Activated);
             this.Deactivate += new System.EventHandler(this.MainForm_Deactivate);
             this.Load += new System.EventHandler(this.MainForm_Load);
@@ -219,25 +219,24 @@
             this.ResumeLayout(false);
             this.PerformLayout();
 
-        }
+         }
 
-        #endregion
+         #endregion
 
-        private System.Windows.Forms.Button btnExit;
-        private System.Windows.Forms.Button btnStart;
-        private System.Windows.Forms.Label lblTitle2;
-        private System.Windows.Forms.Label lblTitle1;
-        private System.Windows.Forms.GroupBox grpTitle;
-        private System.Windows.Forms.Button btnSettings;
-        private System.Windows.Forms.Button btnMessages;
-        private System.Windows.Forms.LinkLabel lnkCredits;
-        private System.Windows.Forms.Label lblCredits;
-        private System.Windows.Forms.NotifyIcon notifyIcon1;
-        private System.Windows.Forms.ContextMenuStrip cntxIconMenu;
-        private System.Windows.Forms.ToolStripMenuItem pauseToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem stopToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
+         private System.Windows.Forms.Button btnExit;
+         private System.Windows.Forms.Button btnStart;
+         private System.Windows.Forms.Label lblTitle2;
+         private System.Windows.Forms.Label lblTitle1;
+         private System.Windows.Forms.GroupBox grpTitle;
+         private System.Windows.Forms.Button btnSettings;
+         private System.Windows.Forms.Button btnMessages;
+         private System.Windows.Forms.LinkLabel lnkCredits;
+         private System.Windows.Forms.Label lblCredits;
+         private System.Windows.Forms.NotifyIcon notifyIcon1;
+         private System.Windows.Forms.ContextMenuStrip cntxIconMenu;
+         private System.Windows.Forms.ToolStripMenuItem pauseToolStripMenuItem;
+         private System.Windows.Forms.ToolStripMenuItem stopToolStripMenuItem;
+         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
 
-    }
-}
-
+     }
+ }

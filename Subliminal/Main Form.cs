@@ -50,11 +50,11 @@ namespace Subliminal
                 if (drSave == DialogResult.Yes)
                 {
                     MessageQueue.GetMsgQueue().SaveMessages();
-                } 
+                }
             }
             if (drSave != DialogResult.Cancel)
             {
-                Application.Exit(); 
+                Application.Exit();
             }
         }
 
@@ -62,10 +62,10 @@ namespace Subliminal
         {
             if (Type.GetType("Mono.Runtime") == null)
             {
-                System.Diagnostics.Process.Start("mailto:zanzamer1@yahoo.com"); 
+                System.Diagnostics.Process.Start("mailto:zanzamer1@yahoo.com");
             }
             else
-	        {
+            {
                 System.Diagnostics.Process.Start("firefox mailto:zanzamer1@yahoo.com");
             }
         }
@@ -99,26 +99,26 @@ namespace Subliminal
             }
         }
 
-        private void ToolStripMenuItem_Click(object sender, EventArgs e)
+        private void יציאהToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void pauseToolStripMenuItem_Click(object sender, EventArgs e)
+        private void הפסקהודעותToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (this.pauseToolStripMenuItem_Click(ToolStripMenuItem.Text == "Pause Messages") )
+            if (this.pauseToolStripMenuItem.Text == "Pause Messages")
             {
                 this.trmRunning.Hide();
                 this.pauseToolStripMenuItem.Text = "Continue Messages";
             }
             else
-	        {
+            {
                 this.trmRunning.Show();
                 this.pauseToolStripMenuItem.Text = "Stop Messages";
-	        }
+            }
         }
 
-        private void showToolStripMenuItem_Click(object sender, EventArgs e)
+        private void עצורהודעותToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.notifyIcon1.Visible = false;
             this.Show();
@@ -140,7 +140,7 @@ namespace Subliminal
                             Settings.GetSettings().AutoStart =
                                 Settings.GetSettings().CommandParms[
                                     Settings.GetSettings().CommandParms.IndexOf(strParm) + 1].ToString();
-                            Settings.GetSettings().MessagesQueueFile = 
+                            Settings.GetSettings().MessagesQueueFile =
                                 Settings.GetSettings().AutoStart;
                             goto EndCmdParms;
                         }
@@ -153,7 +153,7 @@ namespace Subliminal
                         }
                 }
             }
-            EndCmdParms:
+        EndCmdParms:
             MessageQueue.GetMsgQueue().LoadMessages();
         }
 
@@ -173,7 +173,7 @@ namespace Subliminal
 
         private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
         {
-            this.showToolStripMenuItem_Click(sender, e);
+            this.עצורהודעותToolStripMenuItem_Click(sender, e);
         }
 
         #endregion
