@@ -41,9 +41,9 @@
             this.lblCredits = new System.Windows.Forms.Label();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.cntxIconMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.הפסקהודעותToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.עצורהודעותToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.יציאהToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pauseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.stopToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.grpTitle.SuspendLayout();
             this.cntxIconMenu.SuspendLayout();
             this.SuspendLayout();
@@ -161,33 +161,33 @@
             // 
             this.cntxIconMenu.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.cntxIconMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.הפסקהודעותToolStripMenuItem,
-            this.עצורהודעותToolStripMenuItem,
-            this.יציאהToolStripMenuItem});
+            this.pauseToolStripMenuItem,
+            this.stopToolStripMenuItem,
+            this.exitToolStripMenuItem});
             this.cntxIconMenu.Name = "cntxIconMenu";
             this.cntxIconMenu.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.cntxIconMenu.Size = new System.Drawing.Size(185, 76);
             // 
-            // הפסקהודעותToolStripMenuItem
+            // הפסקהודעותpauseToolStripMenuItem
             // 
-            this.הפסקהודעותToolStripMenuItem.Name = "הפסקהודעותToolStripMenuItem";
-            this.הפסקהודעותToolStripMenuItem.Size = new System.Drawing.Size(184, 24);
-            this.הפסקהודעותToolStripMenuItem.Text = "Pause Messages";
-            this.הפסקהודעותToolStripMenuItem.Click += new System.EventHandler(this.הפסקהודעותToolStripMenuItem_Click);
+            this.pauseToolStripMenuItem.Name = "pauseToolStripMenuItem";
+            this.pauseToolStripMenuItem.Size = new System.Drawing.Size(184, 24);
+            this.pauseToolStripMenuItem.Text = "Pause Messages";
+            this.pauseToolStripMenuItem.Click += new System.EventHandler(this.pauseToolStripMenuItem_Click);
             // 
-            // עצורהודעותToolStripMenuItem
+            // עצורהודעותstopToolStripMenuItem
             // 
-            this.עצורהודעותToolStripMenuItem.Name = "עצורהודעותToolStripMenuItem";
-            this.עצורהודעותToolStripMenuItem.Size = new System.Drawing.Size(184, 24);
-            this.עצורהודעותToolStripMenuItem.Text = "Stop Messages";
-            this.עצורהודעותToolStripMenuItem.Click += new System.EventHandler(this.עצורהודעותToolStripMenuItem_Click);
+            this.stopToolStripMenuItem.Name = "stopToolStripMenuItem";
+            this.stopToolStripMenuItem.Size = new System.Drawing.Size(184, 24);
+            this.stopToolStripMenuItem.Text = "Stop Messages";
+            this.stopToolStripMenuItem.Click += new System.EventHandler((sender, e) => this.showToolStripMenuItem_Click(sender, e));
             // 
-            // יציאהToolStripMenuItem
+            // יציאהexitToolStripMenuItem
             // 
-            this.יציאהToolStripMenuItem.Name = "יציאהToolStripMenuItem";
-            this.יציאהToolStripMenuItem.Size = new System.Drawing.Size(184, 24);
-            this.יציאהToolStripMenuItem.Text = "Exit";
-            this.יציאהToolStripMenuItem.Click += new System.EventHandler(this.יציאהToolStripMenuItem_Click);
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(184, 24);
+            this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.ToolStripMenuItem_Click);
             // 
             // MainForm
             // 
@@ -234,9 +234,9 @@
         private System.Windows.Forms.Label lblCredits;
         private System.Windows.Forms.NotifyIcon notifyIcon1;
         private System.Windows.Forms.ContextMenuStrip cntxIconMenu;
-        private System.Windows.Forms.ToolStripMenuItem הפסקהודעותToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem עצורהודעותToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem יציאהToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pauseToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem stopToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
 
     }
 }
