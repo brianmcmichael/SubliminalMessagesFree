@@ -73,30 +73,34 @@
             // grpDirection
             // 
             this.grpDirection.Controls.Add(this.directionControl1);
-            this.grpDirection.Location = new System.Drawing.Point(222, 160);
+            this.grpDirection.Location = new System.Drawing.Point(296, 197);
+            this.grpDirection.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.grpDirection.Name = "grpDirection";
-            this.grpDirection.Size = new System.Drawing.Size(158, 171);
+            this.grpDirection.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpDirection.Size = new System.Drawing.Size(211, 210);
             this.grpDirection.TabIndex = 0;
             this.grpDirection.TabStop = false;
             this.grpDirection.Text = "Messages Location";
             // 
             // directionControl1
             // 
-            this.directionControl1.Location = new System.Drawing.Point(5, 18);
+            this.directionControl1.Location = new System.Drawing.Point(7, 22);
+            this.directionControl1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.directionControl1.Name = "directionControl1";
-            this.directionControl1.Size = new System.Drawing.Size(147, 146);
+            this.directionControl1.Size = new System.Drawing.Size(196, 180);
             this.directionControl1.TabIndex = 4;
-            this.directionControl1.Click += new System.EventHandler(this.directionControl1_Click);
             this.directionControl1.DirClick += new System.EventHandler(this.directionControl1_DirClick);
+            this.directionControl1.Click += new System.EventHandler(this.directionControl1_Click);
             // 
             // trkTimeForMsg
             // 
-            this.trkTimeForMsg.Location = new System.Drawing.Point(6, 33);
+            this.trkTimeForMsg.Location = new System.Drawing.Point(8, 41);
+            this.trkTimeForMsg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.trkTimeForMsg.Maximum = 5000;
             this.trkTimeForMsg.Minimum = 1;
             this.trkTimeForMsg.Name = "trkTimeForMsg";
             this.trkTimeForMsg.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.trkTimeForMsg.Size = new System.Drawing.Size(189, 42);
+            this.trkTimeForMsg.Size = new System.Drawing.Size(252, 56);
             this.trkTimeForMsg.TabIndex = 1;
             this.trkTimeForMsg.Tag = "";
             this.trkTimeForMsg.TickFrequency = 500;
@@ -105,12 +109,13 @@
             // 
             // trkBetweenMsgs
             // 
-            this.trkBetweenMsgs.Location = new System.Drawing.Point(6, 97);
+            this.trkBetweenMsgs.Location = new System.Drawing.Point(8, 119);
+            this.trkBetweenMsgs.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.trkBetweenMsgs.Maximum = 5000;
             this.trkBetweenMsgs.Minimum = 1;
             this.trkBetweenMsgs.Name = "trkBetweenMsgs";
             this.trkBetweenMsgs.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.trkBetweenMsgs.Size = new System.Drawing.Size(189, 42);
+            this.trkBetweenMsgs.Size = new System.Drawing.Size(252, 56);
             this.trkBetweenMsgs.TabIndex = 1;
             this.trkBetweenMsgs.TickFrequency = 500;
             this.trkBetweenMsgs.Value = 1;
@@ -119,18 +124,20 @@
             // lblTimeForMsg
             // 
             this.lblTimeForMsg.AutoSize = true;
-            this.lblTimeForMsg.Location = new System.Drawing.Point(6, 17);
+            this.lblTimeForMsg.Location = new System.Drawing.Point(8, 21);
+            this.lblTimeForMsg.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTimeForMsg.Name = "lblTimeForMsg";
-            this.lblTimeForMsg.Size = new System.Drawing.Size(163, 13);
+            this.lblTimeForMsg.Size = new System.Drawing.Size(222, 17);
             this.lblTimeForMsg.TabIndex = 2;
             this.lblTimeForMsg.Text = "Presenting Time (in mili-seconds):";
             // 
             // lblBetweenMsgs
             // 
             this.lblBetweenMsgs.AutoSize = true;
-            this.lblBetweenMsgs.Location = new System.Drawing.Point(6, 84);
+            this.lblBetweenMsgs.Location = new System.Drawing.Point(8, 103);
+            this.lblBetweenMsgs.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBetweenMsgs.Name = "lblBetweenMsgs";
-            this.lblBetweenMsgs.Size = new System.Drawing.Size(191, 13);
+            this.lblBetweenMsgs.Size = new System.Drawing.Size(258, 17);
             this.lblBetweenMsgs.TabIndex = 2;
             this.lblBetweenMsgs.Text = "Messages Delay Time (in mili-seconds):";
             // 
@@ -147,9 +154,11 @@
             this.grpTime.Controls.Add(this.lblBetweenMsgs);
             this.grpTime.Controls.Add(this.trkBetweenMsgs);
             this.grpTime.Controls.Add(this.lblTimeForMsg);
-            this.grpTime.Location = new System.Drawing.Point(12, 160);
+            this.grpTime.Location = new System.Drawing.Point(16, 197);
+            this.grpTime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.grpTime.Name = "grpTime";
-            this.grpTime.Size = new System.Drawing.Size(204, 171);
+            this.grpTime.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpTime.Size = new System.Drawing.Size(272, 210);
             this.grpTime.TabIndex = 3;
             this.grpTime.TabStop = false;
             this.grpTime.Text = "Messages Times";
@@ -157,9 +166,10 @@
             // ckbShuffle
             // 
             this.ckbShuffle.AutoSize = true;
-            this.ckbShuffle.Location = new System.Drawing.Point(9, 148);
+            this.ckbShuffle.Location = new System.Drawing.Point(12, 182);
+            this.ckbShuffle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ckbShuffle.Name = "ckbShuffle";
-            this.ckbShuffle.Size = new System.Drawing.Size(116, 17);
+            this.ckbShuffle.Size = new System.Drawing.Size(150, 21);
             this.ckbShuffle.TabIndex = 5;
             this.ckbShuffle.Text = "Shuffle Messages?";
             this.ckbShuffle.UseVisualStyleBackColor = true;
@@ -168,93 +178,104 @@
             // lblBetweenPercentMax
             // 
             this.lblBetweenPercentMax.AutoSize = true;
-            this.lblBetweenPercentMax.Location = new System.Drawing.Point(174, 132);
+            this.lblBetweenPercentMax.Location = new System.Drawing.Point(232, 162);
+            this.lblBetweenPercentMax.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBetweenPercentMax.Name = "lblBetweenPercentMax";
             this.lblBetweenPercentMax.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblBetweenPercentMax.Size = new System.Drawing.Size(18, 13);
+            this.lblBetweenPercentMax.Size = new System.Drawing.Size(23, 17);
             this.lblBetweenPercentMax.TabIndex = 3;
             this.lblBetweenPercentMax.Text = "5s";
             // 
             // lblBetweenPercentAvg
             // 
             this.lblBetweenPercentAvg.AutoSize = true;
-            this.lblBetweenPercentAvg.Location = new System.Drawing.Point(87, 132);
+            this.lblBetweenPercentAvg.Location = new System.Drawing.Point(116, 162);
+            this.lblBetweenPercentAvg.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBetweenPercentAvg.Name = "lblBetweenPercentAvg";
             this.lblBetweenPercentAvg.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblBetweenPercentAvg.Size = new System.Drawing.Size(44, 13);
+            this.lblBetweenPercentAvg.Size = new System.Drawing.Size(58, 17);
             this.lblBetweenPercentAvg.TabIndex = 3;
             this.lblBetweenPercentAvg.Text = "2500ms";
             // 
             // lblBetweenPercentMin
             // 
             this.lblBetweenPercentMin.AutoSize = true;
-            this.lblBetweenPercentMin.Location = new System.Drawing.Point(13, 131);
+            this.lblBetweenPercentMin.Location = new System.Drawing.Point(17, 161);
+            this.lblBetweenPercentMin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBetweenPercentMin.Name = "lblBetweenPercentMin";
             this.lblBetweenPercentMin.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblBetweenPercentMin.Size = new System.Drawing.Size(26, 13);
+            this.lblBetweenPercentMin.Size = new System.Drawing.Size(34, 17);
             this.lblBetweenPercentMin.TabIndex = 3;
             this.lblBetweenPercentMin.Text = "1ms";
             // 
             // lblTimeForPercentMax
             // 
             this.lblTimeForPercentMax.AutoSize = true;
-            this.lblTimeForPercentMax.Location = new System.Drawing.Point(174, 65);
+            this.lblTimeForPercentMax.Location = new System.Drawing.Point(232, 80);
+            this.lblTimeForPercentMax.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTimeForPercentMax.Name = "lblTimeForPercentMax";
             this.lblTimeForPercentMax.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblTimeForPercentMax.Size = new System.Drawing.Size(18, 13);
+            this.lblTimeForPercentMax.Size = new System.Drawing.Size(23, 17);
             this.lblTimeForPercentMax.TabIndex = 3;
             this.lblTimeForPercentMax.Text = "5s";
             // 
             // lblTimeForPercentAvg
             // 
             this.lblTimeForPercentAvg.AutoSize = true;
-            this.lblTimeForPercentAvg.Location = new System.Drawing.Point(87, 65);
+            this.lblTimeForPercentAvg.Location = new System.Drawing.Point(116, 80);
+            this.lblTimeForPercentAvg.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTimeForPercentAvg.Name = "lblTimeForPercentAvg";
             this.lblTimeForPercentAvg.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblTimeForPercentAvg.Size = new System.Drawing.Size(44, 13);
+            this.lblTimeForPercentAvg.Size = new System.Drawing.Size(58, 17);
             this.lblTimeForPercentAvg.TabIndex = 3;
             this.lblTimeForPercentAvg.Text = "2500ms";
             // 
             // lblTimeForPercentMin
             // 
             this.lblTimeForPercentMin.AutoSize = true;
-            this.lblTimeForPercentMin.Location = new System.Drawing.Point(13, 65);
+            this.lblTimeForPercentMin.Location = new System.Drawing.Point(17, 80);
+            this.lblTimeForPercentMin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTimeForPercentMin.Name = "lblTimeForPercentMin";
             this.lblTimeForPercentMin.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblTimeForPercentMin.Size = new System.Drawing.Size(26, 13);
+            this.lblTimeForPercentMin.Size = new System.Drawing.Size(34, 17);
             this.lblTimeForPercentMin.TabIndex = 3;
             this.lblTimeForPercentMin.Text = "1ms";
             // 
             // grpText
             // 
+            this.grpText.BackColor = System.Drawing.Color.White;
             this.grpText.Controls.Add(this.lblTransPercent);
             this.grpText.Controls.Add(this.btnAccept);
             this.grpText.Controls.Add(this.btnCancel);
             this.grpText.Controls.Add(this.btnTextFont);
             this.grpText.Controls.Add(this.trkTransparency);
             this.grpText.Controls.Add(this.lblTransparecy);
-            this.grpText.Location = new System.Drawing.Point(12, 12);
+            this.grpText.Location = new System.Drawing.Point(16, 15);
+            this.grpText.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.grpText.Name = "grpText";
-            this.grpText.Size = new System.Drawing.Size(368, 142);
+            this.grpText.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpText.Size = new System.Drawing.Size(491, 175);
             this.grpText.TabIndex = 4;
             this.grpText.TabStop = false;
             this.grpText.Text = "Font, Transparency and General";
             // 
             // lblTransPercent
             // 
-            this.lblTransPercent.Location = new System.Drawing.Point(11, 122);
+            this.lblTransPercent.Location = new System.Drawing.Point(15, 150);
+            this.lblTransPercent.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTransPercent.Name = "lblTransPercent";
             this.lblTransPercent.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblTransPercent.Size = new System.Drawing.Size(345, 17);
+            this.lblTransPercent.Size = new System.Drawing.Size(460, 21);
             this.lblTransPercent.TabIndex = 3;
             this.lblTransPercent.Text = "1%                                               50%                             " +
-                "                100%";
+    "                100%";
             // 
             // btnAccept
             // 
-            this.btnAccept.Location = new System.Drawing.Point(141, 30);
+            this.btnAccept.Location = new System.Drawing.Point(188, 37);
+            this.btnAccept.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAccept.Name = "btnAccept";
-            this.btnAccept.Size = new System.Drawing.Size(81, 34);
+            this.btnAccept.Size = new System.Drawing.Size(108, 42);
             this.btnAccept.TabIndex = 2;
             this.btnAccept.Text = "OK";
             this.btnAccept.UseVisualStyleBackColor = true;
@@ -262,9 +283,10 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(257, 30);
+            this.btnCancel.Location = new System.Drawing.Point(343, 37);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(82, 34);
+            this.btnCancel.Size = new System.Drawing.Size(109, 42);
             this.btnCancel.TabIndex = 2;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -272,9 +294,10 @@
             // 
             // btnTextFont
             // 
-            this.btnTextFont.Location = new System.Drawing.Point(16, 30);
+            this.btnTextFont.Location = new System.Drawing.Point(21, 37);
+            this.btnTextFont.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnTextFont.Name = "btnTextFont";
-            this.btnTextFont.Size = new System.Drawing.Size(87, 34);
+            this.btnTextFont.Size = new System.Drawing.Size(116, 42);
             this.btnTextFont.TabIndex = 2;
             this.btnTextFont.Text = "Text Font";
             this.btnTextFont.UseVisualStyleBackColor = true;
@@ -282,12 +305,13 @@
             // 
             // trkTransparency
             // 
-            this.trkTransparency.Location = new System.Drawing.Point(6, 91);
+            this.trkTransparency.Location = new System.Drawing.Point(8, 112);
+            this.trkTransparency.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.trkTransparency.Maximum = 100;
             this.trkTransparency.Minimum = 1;
             this.trkTransparency.Name = "trkTransparency";
             this.trkTransparency.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.trkTransparency.Size = new System.Drawing.Size(351, 42);
+            this.trkTransparency.Size = new System.Drawing.Size(468, 56);
             this.trkTransparency.TabIndex = 0;
             this.trkTransparency.TickFrequency = 10;
             this.trkTransparency.Value = 100;
@@ -295,9 +319,10 @@
             // 
             // lblTransparecy
             // 
-            this.lblTransparecy.Location = new System.Drawing.Point(13, 77);
+            this.lblTransparecy.Location = new System.Drawing.Point(17, 95);
+            this.lblTransparecy.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTransparecy.Name = "lblTransparecy";
-            this.lblTransparecy.Size = new System.Drawing.Size(100, 23);
+            this.lblTransparecy.Size = new System.Drawing.Size(133, 28);
             this.lblTransparecy.TabIndex = 1;
             this.lblTransparecy.Text = "Transparency:";
             // 
@@ -316,10 +341,11 @@
             "1 second",
             "2.5 seconds",
             "5 seconds"});
-            this.cmbTimeForMsg.Location = new System.Drawing.Point(1, 194);
+            this.cmbTimeForMsg.Location = new System.Drawing.Point(1, 239);
+            this.cmbTimeForMsg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbTimeForMsg.Name = "cmbTimeForMsg";
             this.cmbTimeForMsg.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.cmbTimeForMsg.Size = new System.Drawing.Size(21, 21);
+            this.cmbTimeForMsg.Size = new System.Drawing.Size(27, 24);
             this.cmbTimeForMsg.TabIndex = 4;
             this.cmbTimeForMsg.SelectedIndexChanged += new System.EventHandler(this.cmbTimeForMsg_SelectedIndexChanged);
             // 
@@ -333,29 +359,33 @@
             "1 second",
             "2.5 seconds",
             "5 seconds"});
-            this.cmbBetweenMsgs.Location = new System.Drawing.Point(1, 258);
+            this.cmbBetweenMsgs.Location = new System.Drawing.Point(1, 318);
+            this.cmbBetweenMsgs.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbBetweenMsgs.Name = "cmbBetweenMsgs";
             this.cmbBetweenMsgs.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.cmbBetweenMsgs.Size = new System.Drawing.Size(21, 21);
+            this.cmbBetweenMsgs.Size = new System.Drawing.Size(27, 24);
             this.cmbBetweenMsgs.TabIndex = 4;
             this.cmbBetweenMsgs.SelectedIndexChanged += new System.EventHandler(this.cmbBetweenMsgs_SelectedIndexChanged);
             // 
             // pnlSample
             // 
+            this.pnlSample.BackColor = System.Drawing.Color.White;
             this.pnlSample.ForeColor = System.Drawing.Color.Transparent;
-            this.pnlSample.Location = new System.Drawing.Point(368, 0);
+            this.pnlSample.Location = new System.Drawing.Point(491, 0);
+            this.pnlSample.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlSample.Name = "pnlSample";
-            this.pnlSample.Size = new System.Drawing.Size(357, 339);
+            this.pnlSample.Size = new System.Drawing.Size(476, 417);
             this.pnlSample.TabIndex = 5;
-            this.pnlSample.MouseLeave += new System.EventHandler(this.pnlSample_MouseLeave);
             this.pnlSample.MouseEnter += new System.EventHandler(this.pnlSample_MouseEnter);
+            this.pnlSample.MouseLeave += new System.EventHandler(this.pnlSample_MouseLeave);
             // 
             // lblSample
             // 
             this.lblSample.AutoSize = true;
-            this.lblSample.Location = new System.Drawing.Point(397, 15);
+            this.lblSample.Location = new System.Drawing.Point(529, 18);
+            this.lblSample.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSample.Name = "lblSample";
-            this.lblSample.Size = new System.Drawing.Size(66, 13);
+            this.lblSample.Size = new System.Drawing.Size(86, 17);
             this.lblSample.TabIndex = 6;
             this.lblSample.Text = "Sample Text";
             this.lblSample.SizeChanged += new System.EventHandler(this.lblSample_SizeChanged);
@@ -369,10 +399,11 @@
             "50%",
             "25%",
             "1%"});
-            this.cmbTransparency.Location = new System.Drawing.Point(1, 105);
+            this.cmbTransparency.Location = new System.Drawing.Point(1, 129);
+            this.cmbTransparency.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbTransparency.Name = "cmbTransparency";
             this.cmbTransparency.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.cmbTransparency.Size = new System.Drawing.Size(21, 21);
+            this.cmbTransparency.Size = new System.Drawing.Size(27, 24);
             this.cmbTransparency.TabIndex = 4;
             this.cmbTransparency.SelectedIndexChanged += new System.EventHandler(this.cmbTranparency_SelectedIndexChanged);
             // 
@@ -380,9 +411,10 @@
             // 
             this.lblSeeSample.AutoSize = true;
             this.lblSeeSample.ForeColor = System.Drawing.Color.Red;
-            this.lblSeeSample.Location = new System.Drawing.Point(242, 0);
+            this.lblSeeSample.Location = new System.Drawing.Point(323, 0);
+            this.lblSeeSample.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSeeSample.Name = "lblSeeSample";
-            this.lblSeeSample.Size = new System.Drawing.Size(127, 13);
+            this.lblSeeSample.Size = new System.Drawing.Size(171, 17);
             this.lblSeeSample.TabIndex = 7;
             this.lblSeeSample.Text = "See text sample here! --->";
             // 
@@ -401,10 +433,10 @@
             // 
             // SettingsForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(220)))));
-            this.ClientSize = new System.Drawing.Size(388, 336);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(517, 414);
             this.Controls.Add(this.lblSeeSample);
             this.Controls.Add(this.cmbTransparency);
             this.Controls.Add(this.lblSample);
@@ -416,6 +448,7 @@
             this.Controls.Add(this.pnlSample);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "SettingsForm";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;

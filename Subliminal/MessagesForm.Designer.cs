@@ -51,18 +51,21 @@
             this.grpMessageSet.Controls.Add(this.btnAccept);
             this.grpMessageSet.Controls.Add(this.btnSave);
             this.grpMessageSet.Controls.Add(this.btnLoad);
-            this.grpMessageSet.Location = new System.Drawing.Point(12, 190);
+            this.grpMessageSet.Location = new System.Drawing.Point(16, 234);
+            this.grpMessageSet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.grpMessageSet.Name = "grpMessageSet";
-            this.grpMessageSet.Size = new System.Drawing.Size(211, 142);
+            this.grpMessageSet.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpMessageSet.Size = new System.Drawing.Size(281, 175);
             this.grpMessageSet.TabIndex = 2;
             this.grpMessageSet.TabStop = false;
             this.grpMessageSet.Text = "Messages Set and General";
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(17, 91);
+            this.btnCancel.Location = new System.Drawing.Point(23, 112);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(81, 34);
+            this.btnCancel.Size = new System.Drawing.Size(108, 42);
             this.btnCancel.TabIndex = 4;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -70,9 +73,10 @@
             // 
             // btnAccept
             // 
-            this.btnAccept.Location = new System.Drawing.Point(17, 28);
+            this.btnAccept.Location = new System.Drawing.Point(23, 34);
+            this.btnAccept.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAccept.Name = "btnAccept";
-            this.btnAccept.Size = new System.Drawing.Size(81, 34);
+            this.btnAccept.Size = new System.Drawing.Size(108, 42);
             this.btnAccept.TabIndex = 4;
             this.btnAccept.Text = "OK";
             this.btnAccept.UseVisualStyleBackColor = true;
@@ -80,9 +84,10 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(115, 91);
+            this.btnSave.Location = new System.Drawing.Point(153, 112);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(81, 34);
+            this.btnSave.Size = new System.Drawing.Size(108, 42);
             this.btnSave.TabIndex = 3;
             this.btnSave.Text = "Save To File";
             this.btnSave.UseVisualStyleBackColor = true;
@@ -90,9 +95,10 @@
             // 
             // btnLoad
             // 
-            this.btnLoad.Location = new System.Drawing.Point(115, 28);
+            this.btnLoad.Location = new System.Drawing.Point(153, 34);
+            this.btnLoad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLoad.Name = "btnLoad";
-            this.btnLoad.Size = new System.Drawing.Size(81, 34);
+            this.btnLoad.Size = new System.Drawing.Size(108, 42);
             this.btnLoad.TabIndex = 3;
             this.btnLoad.Text = "Load From File";
             this.btnLoad.UseVisualStyleBackColor = true;
@@ -102,9 +108,11 @@
             // 
             this.grpDragNDrop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.grpDragNDrop.Controls.Add(this.DragDropPic);
-            this.grpDragNDrop.Location = new System.Drawing.Point(229, 190);
+            this.grpDragNDrop.Location = new System.Drawing.Point(305, 234);
+            this.grpDragNDrop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.grpDragNDrop.Name = "grpDragNDrop";
-            this.grpDragNDrop.Size = new System.Drawing.Size(142, 142);
+            this.grpDragNDrop.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpDragNDrop.Size = new System.Drawing.Size(189, 175);
             this.grpDragNDrop.TabIndex = 2;
             this.grpDragNDrop.TabStop = false;
             this.grpDragNDrop.Text = "Drag n Drop";
@@ -114,34 +122,37 @@
             this.DragDropPic.BackgroundImage = global::Subliminal.Properties.Resources.dragndrop;
             this.DragDropPic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.DragDropPic.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DragDropPic.Location = new System.Drawing.Point(3, 16);
+            this.DragDropPic.Location = new System.Drawing.Point(4, 19);
+            this.DragDropPic.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.DragDropPic.Name = "DragDropPic";
-            this.DragDropPic.Size = new System.Drawing.Size(136, 123);
+            this.DragDropPic.Size = new System.Drawing.Size(181, 152);
             this.DragDropPic.TabIndex = 3;
             this.DragDropPic.TabStop = false;
             this.DragDropPic.DragEnter += new System.Windows.Forms.DragEventHandler(this.DragDropPic_DragEnter);
             // 
             // conveyorBelt1
             // 
-            this.conveyorBelt1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(190)))));
+            this.conveyorBelt1.BackColor = System.Drawing.Color.White;
             this.conveyorBelt1.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.conveyorBelt1.Location = new System.Drawing.Point(-5, -1);
+            this.conveyorBelt1.Location = new System.Drawing.Point(-7, -1);
+            this.conveyorBelt1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.conveyorBelt1.Name = "conveyorBelt1";
-            this.conveyorBelt1.Size = new System.Drawing.Size(386, 185);
+            this.conveyorBelt1.Size = new System.Drawing.Size(515, 228);
             this.conveyorBelt1.TabIndex = 0;
             this.conveyorBelt1.ChangeMessage += new System.EventHandler(this.conveyorBelt1_ChangeMessage);
             // 
             // MessagesForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(220)))));
-            this.ClientSize = new System.Drawing.Size(376, 336);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(501, 414);
             this.Controls.Add(this.grpDragNDrop);
             this.Controls.Add(this.grpMessageSet);
             this.Controls.Add(this.conveyorBelt1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "MessagesForm";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
