@@ -1,0 +1,16 @@
+C:\Projects\Subliminal\Subliminal\bin\Debug\Subliminal.exe
+C:\Projects\Subliminal\Subliminal\bin\Debug\Subliminal.pdb
+C:\Projects\Subliminal\Subliminal\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Subliminal\Subliminal\obj\Debug\Subliminal.ConveyorBelt.resources
+C:\Projects\Subliminal\Subliminal\obj\Debug\Subliminal.ConveyorBeltItem.resources
+C:\Projects\Subliminal\Subliminal\obj\Debug\Subliminal.DirectionControl.resources
+C:\Projects\Subliminal\Subliminal\obj\Debug\Subliminal.MainForm.resources
+C:\Projects\Subliminal\Subliminal\obj\Debug\Subliminal.MessagesForm.resources
+C:\Projects\Subliminal\Subliminal\obj\Debug\Subliminal.Properties.Resources.resources
+C:\Projects\Subliminal\Subliminal\obj\Debug\Subliminal.ScrollArrows.resources
+C:\Projects\Subliminal\Subliminal\obj\Debug\Subliminal.SettingsForm.resources
+C:\Projects\Subliminal\Subliminal\obj\Debug\Subliminal.csproj.GenerateResource.Cache
+C:\Projects\Subliminal\Subliminal\obj\Debug\Subliminal.exe
+C:\Projects\Subliminal\Subliminal\obj\Debug\Subliminal.pdb
+C:\Projects\Subliminal\Subliminal\obj\Debug\Subliminal.ShowPicture.resources
+C:\Projects\Subliminal\Subliminal\obj\Debug\Subliminal.TransperantMessage.resources

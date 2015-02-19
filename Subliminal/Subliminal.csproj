@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C31FB90F-3830-46B8-86B8-F9FAD39363C2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Subliminal</RootNamespace>
+    <AssemblyName>Subliminal</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CmdParameters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CmdParameters.Designer.cs">
+      <DependentUpon>CmdParameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorBelt.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConveyorBelt.Designer.cs">
+      <DependentUpon>ConveyorBelt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConveyorBeltItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConveyorBeltItem.Designer.cs">
+      <DependentUpon>ConveyorBeltItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DirectionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DirectionControl.Designer.cs">
+      <DependentUpon>DirectionControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Form.Designer.cs">
+      <DependentUpon>Main Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageQueue.cs" />
+    <Compile Include="MessagesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessagesForm.Designer.cs">
+      <DependentUpon>MessagesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mouse.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CmdParameters.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CmdParameters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorBelt.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ConveyorBelt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorBeltItem.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ConveyorBeltItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DirectionControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DirectionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Form.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Main Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessagesForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MessagesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScrollArrows.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ScrollArrows.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowPicture.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ShowPicture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransperantMessage.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TransperantMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ScrollArrows.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ScrollArrows.Designer.cs">
+      <DependentUpon>ScrollArrows.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsForm.Designer.cs">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowPicture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowPicture.Designer.cs">
+      <DependentUpon>ShowPicture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransperantMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransperantMessage.Designer.cs">
+      <DependentUpon>TransperantMessage.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RightArrow.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LeftArrow.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DirUp.bmp" />
+    <None Include="Resources\DirLeftUp.bmp" />
+    <None Include="Resources\DirRight.bmp" />
+    <None Include="Resources\DirLeft.bmp" />
+    <None Include="Resources\DirRightDown.bmp" />
+    <None Include="Resources\DirDown.bmp" />
+    <None Include="Resources\DirLeftDown.bmp" />
+    <None Include="Resources\DirRightUp.bmp" />
+    <Content Include="Resources\dragndrop.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

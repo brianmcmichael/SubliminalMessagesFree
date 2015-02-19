@@ -1,0 +1,17 @@
+obj\Debug\Subliminal.exe
+obj\Debug\Subliminal.pdb
+bin\Debug\Subliminal.exe
+bin\Debug\Subliminal.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Subliminal.CmdParameters.resources
+obj\Debug\Subliminal.ConveyorBelt.resources
+obj\Debug\Subliminal.ConveyorBeltItem.resources
+obj\Debug\Subliminal.DirectionControl.resources
+obj\Debug\Subliminal.MainForm.resources
+obj\Debug\Subliminal.MessagesForm.resources
+obj\Debug\Subliminal.Properties.Resources.resources
+obj\Debug\Subliminal.ScrollArrows.resources
+obj\Debug\Subliminal.SettingsForm.resources
+obj\Debug\Subliminal.ShowPicture.resources
+obj\Debug\Subliminal.TransperantMessage.resources
+obj\Debug\Subliminal.csproj.GenerateResource.Cache
