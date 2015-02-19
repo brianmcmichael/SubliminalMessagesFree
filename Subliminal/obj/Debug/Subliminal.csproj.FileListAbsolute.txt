@@ -14,3 +14,5 @@ C:\Projects\Subliminal\Subliminal\obj\Debug\Subliminal.exe
 C:\Projects\Subliminal\Subliminal\obj\Debug\Subliminal.pdb
 C:\Projects\Subliminal\Subliminal\obj\Debug\Subliminal.ShowPicture.resources
 C:\Projects\Subliminal\Subliminal\obj\Debug\Subliminal.TransperantMessage.resources
+D:\Users\brian_000\Documents\Visual Studio 2013\Projects\Subliminal-ENG\Subliminal\obj\Debug\Subliminal.exe
+D:\Users\brian_000\Documents\Visual Studio 2013\Projects\Subliminal-ENG\Subliminal\obj\Debug\Subliminal.pdb
