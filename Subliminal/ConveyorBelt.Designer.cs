@@ -48,12 +48,13 @@
             // 
             // cntxBeltMenu
             // 
+            this.cntxBeltMenu.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.cntxBeltMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.חדשToolStripMenuItem,
             this.מחקהכלToolStripMenuItem});
             this.cntxBeltMenu.Name = "cntxMenu";
             this.cntxBeltMenu.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.cntxBeltMenu.Size = new System.Drawing.Size(161, 48);
+            this.cntxBeltMenu.Size = new System.Drawing.Size(196, 52);
             this.cntxBeltMenu.Opening += new System.ComponentModel.CancelEventHandler(this.cntxBeltMenu_Opening);
             // 
             // חדשToolStripMenuItem
@@ -63,57 +64,58 @@
             this.תמונהToolStripMenuItem,
             this.רצףתמונותמסרטToolStripMenuItem});
             this.חדשToolStripMenuItem.Name = "חדשToolStripMenuItem";
-            this.חדשToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.חדשToolStripMenuItem.Size = new System.Drawing.Size(195, 24);
             this.חדשToolStripMenuItem.Text = "New";
             // 
             // הודעהחדשהToolStripMenuItem
             // 
             this.הודעהחדשהToolStripMenuItem.Name = "הודעהחדשהToolStripMenuItem";
-            this.הודעהחדשהToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.הודעהחדשהToolStripMenuItem.Size = new System.Drawing.Size(212, 24);
             this.הודעהחדשהToolStripMenuItem.Text = "Text Message";
             this.הודעהחדשהToolStripMenuItem.Click += new System.EventHandler(this.הודעהחדשהToolStripMenuItem_Click);
             // 
             // תמונהToolStripMenuItem
             // 
             this.תמונהToolStripMenuItem.Name = "תמונהToolStripMenuItem";
-            this.תמונהToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.תמונהToolStripMenuItem.Size = new System.Drawing.Size(212, 24);
             this.תמונהToolStripMenuItem.Text = "Picture";
             this.תמונהToolStripMenuItem.Click += new System.EventHandler(this.תמונהToolStripMenuItem_Click);
             // 
             // רצףתמונותמסרטToolStripMenuItem
             // 
             this.רצףתמונותמסרטToolStripMenuItem.Name = "רצףתמונותמסרטToolStripMenuItem";
-            this.רצףתמונותמסרטToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.רצףתמונותמסרטToolStripMenuItem.Size = new System.Drawing.Size(212, 24);
             this.רצףתמונותמסרטToolStripMenuItem.Text = "Pictures From Movie";
             this.רצףתמונותמסרטToolStripMenuItem.Click += new System.EventHandler(this.רצףתמונותמסרטToolStripMenuItem_Click);
             // 
             // מחקהכלToolStripMenuItem
             // 
             this.מחקהכלToolStripMenuItem.Name = "מחקהכלToolStripMenuItem";
-            this.מחקהכלToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.מחקהכלToolStripMenuItem.Size = new System.Drawing.Size(195, 24);
             this.מחקהכלToolStripMenuItem.Text = "Delete Everything";
             this.מחקהכלToolStripMenuItem.Click += new System.EventHandler(this.מחקהכלToolStripMenuItem_Click);
             // 
             // cntxItemMenu
             // 
+            this.cntxItemMenu.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.cntxItemMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.מחקToolStripMenuItem,
             this.ערוךToolStripMenuItem});
             this.cntxItemMenu.Name = "cntxItemMenu";
-            this.cntxItemMenu.Size = new System.Drawing.Size(106, 48);
+            this.cntxItemMenu.Size = new System.Drawing.Size(123, 52);
             this.cntxItemMenu.Opening += new System.ComponentModel.CancelEventHandler(this.cntxItemMenu_Opening);
             // 
             // מחקToolStripMenuItem
             // 
             this.מחקToolStripMenuItem.Name = "מחקToolStripMenuItem";
-            this.מחקToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
+            this.מחקToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
             this.מחקToolStripMenuItem.Text = "Delete";
             this.מחקToolStripMenuItem.Click += new System.EventHandler(this.מחקToolStripMenuItem_Click);
             // 
             // ערוךToolStripMenuItem
             // 
             this.ערוךToolStripMenuItem.Name = "ערוךToolStripMenuItem";
-            this.ערוךToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
+            this.ערוךToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
             this.ערוךToolStripMenuItem.Text = "Edit";
             this.ערוךToolStripMenuItem.Click += new System.EventHandler(this.ערוךToolStripMenuItem_Click);
             // 
@@ -124,34 +126,37 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(220)))));
+            this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.ContextMenuStrip = this.cntxBeltMenu;
             this.panel1.Controls.Add(this.scrollArrows1);
-            this.panel1.Location = new System.Drawing.Point(0, 140);
+            this.panel1.Location = new System.Drawing.Point(0, 172);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(386, 45);
+            this.panel1.Size = new System.Drawing.Size(515, 55);
             this.panel1.TabIndex = 3;
             // 
             // scrollArrows1
             // 
-            this.scrollArrows1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(220)))));
-            this.scrollArrows1.Location = new System.Drawing.Point(129, 9);
+            this.scrollArrows1.BackColor = System.Drawing.Color.White;
+            this.scrollArrows1.Location = new System.Drawing.Point(172, 11);
+            this.scrollArrows1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.scrollArrows1.Name = "scrollArrows1";
-            this.scrollArrows1.Size = new System.Drawing.Size(112, 33);
+            this.scrollArrows1.Size = new System.Drawing.Size(149, 41);
             this.scrollArrows1.TabIndex = 2;
-            this.scrollArrows1.LeftMove += new System.EventHandler(this.scrollArrows1_LeftMove);
             this.scrollArrows1.RightMove += new System.EventHandler(this.scrollArrows1_RightMove);
+            this.scrollArrows1.LeftMove += new System.EventHandler(this.scrollArrows1_LeftMove);
             // 
             // ConveyorBelt
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(190)))));
+            this.BackColor = System.Drawing.Color.White;
             this.ContextMenuStrip = this.cntxBeltMenu;
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ConveyorBelt";
-            this.Size = new System.Drawing.Size(386, 185);
+            this.Size = new System.Drawing.Size(515, 228);
             this.Load += new System.EventHandler(this.ConveyorBelt_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ConveyorBelt_MouseDown);
             this.cntxBeltMenu.ResumeLayout(false);
